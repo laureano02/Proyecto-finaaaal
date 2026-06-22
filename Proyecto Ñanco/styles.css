@@ -1,0 +1,51 @@
+.titulo-pag {
+    text-align: center;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 40px;
+}
+body {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: end;
+    background-color: #885141;
+}
+.lista {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: #C08552;
+    width: 2500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+main {
+    background-color: #a58965;
+    height: 600px;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+div {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.animales {
+    display: flex;
+    justify-content: space-around;
+    width: 2000px;
+    height: 300px;
+}

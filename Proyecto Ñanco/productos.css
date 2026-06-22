@@ -1,0 +1,73 @@
+body {
+    background-color: #885141;
+}
+.titulo-pag {
+    text-align: center;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-size: 40px;
+}
+body {
+    display: block;
+    font-size: 20px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: end;
+}
+.lista {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: #C08552;
+    width: 1480px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+main {
+    background-color: #a58965;
+}
+img {
+    width: 450px;
+    height: 250px;
+}
+div {
+    width: 1500px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.jaguar {
+    width: 200px;
+    height: 250px;
+}
+.manchas_jaguar {
+    width: 150px;
+    height: 100px;
+}
+.Leopardo {
+    width: 200px;
+    height: 200px;
+}
+.Guepardo {
+    width: 300px;
+    height: 200px;
+}
+.oso {
+    width: 300px;
+    height: 300px;
+}
+.anaconda {
+    width: 400px;
+    height: 350px;
+}
+.arpia {
+    width: 220px;
+    height: 300px;
+}
