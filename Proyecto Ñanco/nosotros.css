@@ -1,0 +1,59 @@
+header {
+    background-color: #C08552;
+    width: 1490px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 7px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.titulo-pag {
+    display: flex;
+    justify-content: center;
+}
+main {
+    font-size: 20px;
+    background-image: url(https://ucc.edu.co/colombia-nos-inspira/especies-y-territorios/PublishingImages/El%20sendero%20del%20jaguar/Fotos%20texto/1.%20A%20-%20GettyImages-1371839167.jpg);
+
+    height: 1300px;
+}
+p {
+    color: white;
+    font-size: 22px;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px black;
+}
+h2 {
+    color: white;
+}
+body {
+    background-color: #864e3d;
+}
+.copy {
+    font-size: 16px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    background-color: #5f493b;
+    height: 100px;
+}
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+    height: 300px;
+}
+.lista {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 650px;
+}

@@ -1,29 +1,23 @@
-body {
-    background-color: #885141;
-}
-
 .titulo-pag {
     text-align: center;
     color: aliceblue;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
     font-size: 40px;
 }
-
 body {
-    display: block;
-    font-size: 20px;
+    display: flex;
+    font-size: 12px;
     justify-content: center;
     align-content: center;
     flex-direction: column;
     align-items: end;
+    background-color: #885141;
 }
-
 .lista {
     align-items: flex-end;
     display: flex;
     justify-content: space-between;
 }
-
 header {
     background-color: #C08552;
     width: 1490px;
@@ -34,16 +28,14 @@ header {
     justify-content: space-around;
     margin-bottom: 7px;
 }
-
 main {
     background-color: #a58965;
+    height: 600px;
 }
-
 img {
-    width: 450px;
+    width: 250px;
     height: 250px;
 }
-
 div {
     width: 1500px;
     display: flex;
@@ -51,62 +43,26 @@ div {
     justify-content: center;
     align-items: center;
 }
-
-.jaguar {
-    width: 200px;
-    height: 250px;
-}
-
-.manchas_jaguar {
-    width: 150px;
-    height: 100px;
-}
-
-.Leopardo {
-    width: 200px;
-    height: 200px;
-}
-
-.Guepardo {
-    width: 300px;
-    height: 200px;
-}
-
-.oso {
-    width: 300px;
+.hero {
+    display: flex;
+    justify-content: space-around;
+    width: 2000px;
     height: 300px;
 }
-
-.anaconda {
-    width: 400px;
-    height: 350px;
-}
-
-.arpia {
-    width: 220px;
-    height: 300px;
-}
-
-p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 footer {
     margin-top: 10px;
     background-color: #5f493b;
     width: 1490px;
 }
-
 .logo {
     display: flex;
     justify-content: flex-start;
     width: 350px;
     height: 300px;
 }
-
 .lista {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    width: 350px;
+    width: 650px;
 }
